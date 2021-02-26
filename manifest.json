@@ -1,0 +1,21 @@
+{
+    "name": "Noad",
+    "version": "0.1.0",
+    "description": "Yet another ad blocker extension",
+    "permissions": [
+        "activeTab",
+        "webRequest",
+        "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+
+   "icons": {
+        "16": "/img/16.png",
+        "32": "/img/32.png",
+        "64": "/img/64.png"
+    },
+   
+    "manifest_version": 2
+  }
